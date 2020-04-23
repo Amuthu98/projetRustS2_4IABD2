@@ -19,7 +19,6 @@
 	Toutefois on peut aussi se servir d’alias afin de déclarer des alias d’autres types et donc créer des types.
 
 3)
-
 	Rust se compile nativement grâce à LLVM.
 
 
