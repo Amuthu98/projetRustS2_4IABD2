@@ -25,9 +25,7 @@
 
 
 4)
-	
-	
-	
+
 	L’espace maximum d’adressage d’un processus de 8 bits est de 2^8 - 1 = 255 soit en hexadécimal : FF
 
 
