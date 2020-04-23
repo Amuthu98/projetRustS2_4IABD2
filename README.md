@@ -19,10 +19,12 @@
 	Toutefois on peut aussi se servir d’alias afin de déclarer des alias d’autres types et donc créer des types.
 
 3)
+	
 	Rust se compile nativement grâce à LLVM.
 
 
 4)
+	
 	
 	L’espace maximum d’adressage d’un processus de 8 bits est de 2^8 - 1 = 255 soit en hexadécimal : FF
 
