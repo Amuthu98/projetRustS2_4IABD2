@@ -41,3 +41,11 @@
 Source: Mes cours de système.
 
 
+## Partie 2 : Pratique -micro-shell
+
+1)
+
+	Pour compiler son programme il faut lancer la commande cargo build (bien entendu il faut se déplacer sur le programme au préalable).
+	Puis, pour l'exécuter il faut lancer la commande: ./target/debug/micro-shell
+	Si on souhaite compiler et exécuter avec une seule commande on peut utiliser: cargo run
+
