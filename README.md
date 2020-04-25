@@ -49,3 +49,12 @@ Source: Mes cours de système.
 	Puis, pour l'exécuter il faut lancer la commande: ./target/debug/micro-shell
 	Si on souhaite compiler et exécuter avec une seule commande on peut utiliser: cargo run
 
+## Partie 3 : Execution d'un micro-shell
+
+4)
+
+	Rust nous force à récupérer le statut du processus car il doit savoir quand le processus se termine afin de le transmettre au processus parent.
+5)
+
+	Pendant que son enfant s'exécute, le programme attend qu'il se termine pour collecter son statut afin de savoir quoi faire.
+	
