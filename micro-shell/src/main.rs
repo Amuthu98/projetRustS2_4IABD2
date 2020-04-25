@@ -3,14 +3,14 @@ fn main() -> std::io::Result<()> {
     let _stdin = io::stdin();
     use std::io::{self, Write};
     let stdout = io::stdout();
-    let mut user_input = stdout;
-    //let mut user_input = String::with_capacity(256);
-    // On prend une référence mutable
-    //stdin.read_line(&mut user_input)?;
-    user_input.write(b"->")?;
+    let mut out = stdout;
+    out.write(b"-->")?;
     // `?` sert à « propager l'erreur » dans la fonction appellante
     // c'est mieux que de crash avec un unwrap ou expect ;)
-    user_input.flush()?;
+    out.flush()?;
+
+    let mut user_input = String::with_capacity(256);
+    _stdin.read_line(&mut user_input)?;
     Ok(())
 
 }
