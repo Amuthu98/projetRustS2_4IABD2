@@ -49,3 +49,27 @@ Source: Mes cours de système.
 	Puis, pour l'exécuter il faut lancer la commande: ./target/debug/micro-shell
 	Si on souhaite compiler et exécuter avec une seule commande on peut utiliser: cargo run
 
+## Partie 3 : Execution d'un micro-shell
+
+4)
+
+	Rust nous force à récupérer le statut du processus car il doit savoir quand le processus se termine afin de le transmettre au processus parent.
+5)
+
+	Pendant que son enfant s'exécute, le programme attend qu'il se termine pour collecter son statut afin de savoir quoi faire.
+
+
+## Partie 4 : Redirections - pipe my programs
+
+7)
+
+	Un tube entre deux programmes et comme une liaison, un conduit qui relie deux programmes entre eux. 
+	Ce tube permet aux programmes de communiquer entre eux, cela a crée une liaison entre eux.
+	Toutefois, un tube a deux bouts, ces deux bouts sont différents car l'un est l'entrée et l'autre la sorte.
+	En d'autres termes, un programmes pourra écrire tandis que l'autre pourra lire. 
+	Pour créer un dialogue entre deux programmes plutôt qu'une liaison, il faut donc deux tuples dans un sens différent.
+	
+Source : Connaissance personnelle
+
+
+8)
