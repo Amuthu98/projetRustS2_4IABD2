@@ -1,5 +1,9 @@
 # projetRustS2_4IABD2
 
+Membres du groupes:
+	
+	- BALASOUPRAMANIANE Amrta Devy
+        - DA SILVA Dylane
 
 ## Partie 1 : Rappels de Rust
 
