@@ -5,6 +5,10 @@ Membres du groupes:
 - BALASOUPRAMANIANE Amrta Devy
 - DA SILVA Dylane
 
+Lien du Git:
+
+https://github.com/Amuthu98/projetRustS2_4IABD2
+
 ## Partie 1 : Rappels de Rust
 
 1)
