@@ -2,33 +2,8 @@ use std::error::Error;
 use std::io::prelude::*;
 use std::process::{Command, Stdio};
 
-// fn Exo4_pipes(){        
-//         let mut programme1 = Command::new("ls").arg("/")
-//         .stdin(Stdio::piped())
-//         .stdout(Stdio::piped())
-//         .spawn()
-//         .expect("Failed to spawn child process");
 
-        
-//         let entree = programme1.stdin.as_mut().expect("Failed to open stdin");
-//         entree.write_all("Hello, world!".as_bytes()).expect("Failed to write to stdin");
-        
-
-//         let output = programme1.wait_with_output().expect("Failed to read stdout");
-       
-//         //assert_eq!(String::from_utf8_lossy(&output.stdout), "!dlrow ,olleH");
-
-//         let mut programme2 = Command::new("grep").arg("Hello")
-//          .stdin(output)
-//          .spawn();
-
-
-//           assert_eq!("hello",get_stdout(programme2).trim());
-
-//     }
-
-
-fn Exo4_pipesV2(){
+fn Exo4_pipes(){
 
     let ls = Command::new("ls")
     .arg("-alh")
@@ -56,7 +31,7 @@ fn main() -> std::io::Result<()> {
     // c'est mieux que de crash avec un unwrap ou expect ;)
     out.flush()?;
 
-    // On réupère la commande de l'utilisateur
+    // On récupère la commande de l'utilisateur
     let mut user_input = String::with_capacity(256);
     _stdin.read_line(&mut user_input)?;
 
@@ -72,7 +47,7 @@ fn main() -> std::io::Result<()> {
 
     
 
-    Exo4_pipesV2();
+    Exo4_pipes();
 
     Ok(())
 
