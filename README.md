@@ -134,4 +134,4 @@ Source : Connaissance personnelle
 
 10) Un processus c'est un programme informatique en cours d’exécution par un ou plusieurs threads d’un ordinateur. Son ID appelé PID est un identifiant unique faisant référence à un programme lors de son lancement.
 
-11)
+
