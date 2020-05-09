@@ -3,7 +3,7 @@ use std::io::prelude::*;
 use std::process::{Command, Stdio};
 
 
-fn Exo4_pipes(){
+fn exo4_pipes(){
 
     let ls = Command::new("ls")
     .stdout(Stdio::piped())
@@ -19,10 +19,6 @@ fn Exo4_pipes(){
 }
 
 
-fn Exo5_taches_fond(){
-
-    // Amrta
-}
 
 
 fn main() -> std::io::Result<()> {
@@ -90,7 +86,7 @@ fn main() -> std::io::Result<()> {
 
     
     }
-    Exo4_pipes();
+    exo4_pipes();
     Ok(())
     
 
