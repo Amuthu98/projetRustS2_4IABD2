@@ -109,10 +109,6 @@ Source: Mes cours de système.
         
 }
 
-
-
-
-
 ## Partie 4 : Redirections - pipe my programs
 
 7)
@@ -126,12 +122,8 @@ Source: Mes cours de système.
 Source : Connaissance personnelle
 
 
-8)
-
-
-
 ## Partie 5 :  Executions en concurence : Gérer des commandes en fond
 
-10) Un processus c'est un programme informatique en cours d’exécution par un ou plusieurs threads d’un ordinateur. Son ID appelé PID est un identifiant unique faisant référence à un programme lors de son lancement.
+10)
 
-
+	Un processus c'est un programme informatique en cours d’exécution par un ou plusieurs threads d’un ordinateur. Son ID appelé PID est un identifiant unique faisant référence à un programme lors de son lancement.
