@@ -17,13 +17,13 @@ https://github.com/Amuthu98/projetRustS2_4IABD2
 	Ces références ressemblent au fonctionnement des pointeurs, qui pointent vers la mémoire. 
 	Une référence se fait grâce aux opérateurs & ou &mut mais aussi en utilisant ref et ref mut (mut permet de rendre la valeur mutable).
 	Les références ont une durée de vie qui est donc la portée de la référence. 
-	Une fois cette portée dépassée, l’emprunt n’est plus valable, et est donc retiré de la mémoire. 
+	Une fois cette portée dépassée, l’emprunt n’est plus valable et est donc retiré de la mémoire. 
 
 
 
 2)
 
-	Afin de déclarer ses propres types, il existe en Rust, deux principales façons de le faire:
+	Afin de déclarer ses propres types, il existe en Rust deux principales façons de le faire:
 	Grâce à Enum
 	Grâce à Struct
 	Toutefois on peut aussi se servir d’alias afin de déclarer des alias d’autres types et donc créer des types.
