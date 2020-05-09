@@ -81,3 +81,11 @@ Source : Connaissance personnelle
 
 
 8)
+
+
+
+## Partie 5 :  Executions en concurence : Gérer des commandes en fond
+
+10) Un processus c'est un programme informatique en cours d’exécution par un ou plusieurs threads d’un ordinateur.
+
+11)
