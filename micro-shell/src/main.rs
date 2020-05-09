@@ -20,6 +20,12 @@ fn Exo4_pipes(){
 }
 
 
+fn Exo5_taches_fond(){
+
+    // Amrta
+}
+
+
 fn main() -> std::io::Result<()> {
 
     let _stdin = io::stdin();
