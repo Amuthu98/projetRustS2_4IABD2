@@ -86,6 +86,6 @@ Source : Connaissance personnelle
 
 ## Partie 5 :  Executions en concurence : Gérer des commandes en fond
 
-10) Un processus c'est un programme informatique en cours d’exécution par un ou plusieurs threads d’un ordinateur.
+10) Un processus c'est un programme informatique en cours d’exécution par un ou plusieurs threads d’un ordinateur. Son ID appelé PID  un identifiant uniquefaisant référence à un programme lors de son lancement.
 
 11)
