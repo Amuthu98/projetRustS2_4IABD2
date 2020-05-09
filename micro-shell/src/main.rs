@@ -19,6 +19,12 @@ fn Exo4_pipes(){
 }
 
 
+fn Exo5_taches_fond(){
+
+    // Amrta
+}
+
+
 fn main() -> std::io::Result<()> {
     use std::collections::VecDeque;
 

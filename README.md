@@ -65,6 +65,52 @@ Source: Mes cours de système.
 5)
 
 	Pendant que son enfant s'exécute, le programme attend qu'il se termine pour collecter son statut afin de savoir quoi faire.
+	
+	Code de la Partie 3: 
+	
+	fn Partie3(){
+    
+    // Je n'utilise plus cette partie ensuite mais l'ai gardé pour garder une trace de l'exercice 3 avec le status
+
+        use std::collections::VecDeque;
+
+        //let mut stock_prgm = VecDeque::new();
+    
+        let _stdin = io::stdin();
+        use std::io::{self, Write};
+        let stdout = io::stdout();
+        let mut out = stdout;
+        out.write(b"-->")?;
+        // `?` sert à « propager l'erreur » dans la fonction appellante
+        // c'est mieux que de crash avec un unwrap ou expect ;)
+        
+        out.flush()?;
+
+        // On récupère la commande de l'utilisateur
+        let mut user_input = String::with_capacity(256);
+        _stdin.read_line(&mut user_input)?;
+        
+        if user_input.trim() == "" {
+            continue
+            } else if user_input.trim() == "exit" {
+            break
+            }
+
+        
+        // On execute la commande
+        let status = Command::new(user_input.trim())
+                     .status()
+                     .expect("command not found");
+
+        println!("status: {}", status);
+
+        
+
+        
+}
+
+
+
 
 
 ## Partie 4 : Redirections - pipe my programs
@@ -81,3 +127,11 @@ Source : Connaissance personnelle
 
 
 8)
+
+
+
+## Partie 5 :  Executions en concurence : Gérer des commandes en fond
+
+10) Un processus c'est un programme informatique en cours d’exécution par un ou plusieurs threads d’un ordinateur. Son ID appelé PID est un identifiant unique faisant référence à un programme lors de son lancement.
+
+
