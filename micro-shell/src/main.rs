@@ -1,5 +1,3 @@
-use std::error::Error;
-use std::io::prelude::*;
 use std::process::{Command, Stdio};
 
 
@@ -28,7 +26,7 @@ fn main() -> std::io::Result<()> {
     
     loop{
         
-        let _stdin = io::stdin();
+        let stdin = io::stdin();
         use std::io::{self, Write};
         let stdout = io::stdout();
         let mut out = stdout;
@@ -40,7 +38,7 @@ fn main() -> std::io::Result<()> {
 
         // On récupère la commande de l'utilisateur
         let mut user_input = String::with_capacity(256);
-        _stdin.read_line(&mut user_input)?;
+        stdin.read_line(&mut user_input)?;
         
         if user_input.trim() == "" {
             continue
